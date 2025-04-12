@@ -9,15 +9,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		RGB_MOD, KC_H
 		),
 [1] = LAYOUT(
-		TO(2),                     RGB_TOG, 
+		TO(0),                     RGB_TOG, 
 		RGB_HUD, RGB_HUI, RGB_VAD, RGB_VAI, 
 		RGB_RMOD, RGB_MOD, KC_MUTE, 
 		RGB_SPD, RGB_SPI
 		),
-[2] = LAYOUT(
-        TO(0),                     RGB_TOG, 
-        RGB_HUD, RGB_HUI, RGB_VAD, RGB_VAI, 
-        RGB_RMOD, RGB_MOD, KC_MUTE, 
-        RGB_SPD, RGB_SPI
-        ),
 };
