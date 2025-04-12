@@ -1,1 +1,1 @@
-该文件夹存放基于stm32f103系列芯片开发的qmk固件源码模板
+来源：https://oshwhub.com/morempty/STM32-PAD-17jian-shuo-zi-jian-pa
