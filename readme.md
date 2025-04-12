@@ -155,3 +155,15 @@
 ## 3. keyboard.json的编写
 
 将KLE的源代码直接转换为keyboard.json的工具：[工具](https://qmk.fm/converter/)
+
+踩坑：
+
+- 编码器的配置项一定要放在keyboard.json中，再config.h中配置无效
+
+  ```json
+  "encoder":{
+      "rotary":[
+         {"pin_a":"B3","pin_b":"B4","resolution":2}
+       ]
+  },
+  ```
