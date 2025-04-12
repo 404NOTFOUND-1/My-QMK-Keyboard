@@ -1,3 +1,7 @@
+# 硬件设计
+
+[自定义按键小键盘_stm32重制 - 立创开源硬件平台](https://oshwhub.com/ayanami-1/new_pad)
+
 # 编写键盘固件
 
 ## 1. 文件格式
