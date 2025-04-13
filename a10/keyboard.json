@@ -3,12 +3,14 @@
     "manufacturer": "Ayanami",
     "url": "",
     "maintainer": "Ayanami",
-    "diode_direction": "COL2ROW",
     "usb": {
         "vid": "0x0194",
         "pid": "0x0463",
         "device_version": "0.0.1"
     },
+    "processor": "STM32F103",
+    "bootloader": "stm32duino",
+    "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "command": false,
