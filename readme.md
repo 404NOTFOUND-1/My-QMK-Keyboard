@@ -17,6 +17,8 @@ a10：[自定义按键小键盘_stm32重制 - 立创开源硬件平台](https://
    ![1741940835346](image/readme/1741940835346.png)
 6. 指示灯功能：[指示灯配置](https://docs.qmk.fm/features/rgb_matrix#indicators)
 7. 编码器：[编码器配置](https://docs.qmk.fm/features/encoders#encoder-map)
+8. 特殊键码
+   `LT1(kc)`：点按实现kc定义的功能，按住切换到1层（可以用于实现Fn的功能）
 
 ### **stm32F103系列芯片**
 
