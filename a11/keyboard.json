@@ -12,7 +12,7 @@
     "bootloader": "stm32duino",
     "diode_direction": "ROW2COL",
     "features": {
-        "bootmagic": false,
+        "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,
