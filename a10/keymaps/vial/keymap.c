@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [1] = LAYOUT(
 		TO(0),                     RGB_TOG, 
 		RGB_HUD, RGB_HUI, RGB_VAD, RGB_VAI, 
-		RGB_RMOD, RGB_MOD, KC_MUTE, 
+		RGB_SAD, RGB_SAI, KC_MUTE, 
 		RGB_SPD, RGB_SPI
 		),
 };
@@ -35,22 +35,22 @@ led_config_t g_led_config = { {
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
-    [1] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
+    [1] = { ENCODER_CCW_CW(RGB_RMOD, RGB_MOD)},
 };
 #endif
 
-bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
-    for (uint8_t i = led_min; i < led_max; i++) {
-        switch(get_highest_layer(layer_state|default_layer_state)) {
-            case 2:
-                rgb_matrix_set_color(i, RGB_YELLOW);
-                break;
-            case 1:
-                rgb_matrix_set_color(i, RGB_CYAN);
-                break;
-            default:
-                break;
-        }
-    }
-    return false;
-}
+// bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+//     for (uint8_t i = led_min; i < led_max; i++) {
+//         switch(get_highest_layer(layer_state|default_layer_state)) {
+//             case 2:
+//                 rgb_matrix_set_color(i, RGB_YELLOW);
+//                 break;
+//             case 1:
+//                 rgb_matrix_set_color(i, RGB_CYAN);
+//                 break;
+//             default:
+//                 break;
+//         }
+//     }
+//     return false;
+// }
