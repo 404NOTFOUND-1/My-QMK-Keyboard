@@ -1,6 +1,6 @@
-# mykeyboard/a10
+# a10
 
-![mykeyboard/a10](imgur.com image replace me!)
+![a10](imgur.com image replace me!)
 
 *A short description of the keyboard/project*
 
