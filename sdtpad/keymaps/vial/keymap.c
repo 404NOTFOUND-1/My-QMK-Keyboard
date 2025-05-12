@@ -34,5 +34,3 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [1] = { ENCODER_CCW_CW(RGB_RMOD, RGB_MOD), ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
 };
 #endif
-
-
